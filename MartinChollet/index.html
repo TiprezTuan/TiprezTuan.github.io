@@ -1,1 +1,83 @@
-Hello World de martin
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Martin Chollet</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="images/logo.png">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="index.html">Accueil</a></li>
+            <li id="link1" class="link"><a href="parcours.html">Mon parcours</a></li>
+            <li id="link2" class="link"><a href="competences.html">Mes compétences</a></li>
+            <li id="link3" class="link"><a href="projets.html">Mes Projets</a></li>
+        </ul>
+        <button class="btn">Me contacter</button>
+    </nav>
+    
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Portfolio</h4>
+            <div class="nomPrenom">
+                <span>Martin</span> <br> <span>Chollet</span>
+            </div>
+            <p>
+                Ce portfolio vous offre un aperçu de mes compétences ainsi que de ma passion pour l'informatique.
+            </p>
+            <button id="discoverMe" class="btn">Me découvrir</button>
+        </div>
+        <div class="image">
+            <img src="images/header.png">
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="header">à propos de moi</h2>
+        <div class="features">
+            <div class="card">
+                <h4 style="text-align: center; margin-bottom: 16px; font-size: 40px;">Martin CHOLLET</h4>
+                <p class="text-presentation">
+                    <img src="images/MartinChollet.png" id="photoMartin">
+                    Bonjour ! En tant qu'étudiant en BUT Informatique, je suis <span>passionné</span> par le développement 
+                    d'applications. Mon ambition est de devenir un <span>développeur</span> <span>d'applications</span> complet, capable 
+                    de concevoir des logiciels innovants pour répondre aux besoins de demain. <br>Actuellement, je 
+                    <span>recherche</span> une opportunité d'<span>alternance</span> dans le domaine du développement d'applications afin 
+                    d'<span>acquérir</span> de l'expérience et d'<span>élargir</span> mes compétences. 
+                </p>
+            </div>
+            
+            <div class="bande">
+                <a href="competences.html">
+                    <div class="card two">
+                        <h4>Voir mes compétences</h4>
+                    </div>
+                </a>
+                <a href="pdf/CHOLLET.pdf" title="Pdf">
+                    <div class="card three">
+                        <h4>Mon CV</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
